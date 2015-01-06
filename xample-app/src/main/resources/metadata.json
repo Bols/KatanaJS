@@ -1,0 +1,20 @@
+{
+    "domainobjects": {
+        "TodoApplication": {
+            "views":{
+                "normal":{
+                }
+            }
+        },
+        "Todo":{
+            "views":{
+                "normal":{
+
+                },
+                "edit":{
+
+                }
+            }
+        }
+    }
+}

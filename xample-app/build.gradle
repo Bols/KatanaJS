@@ -1,0 +1,7 @@
+defaultTasks 'build'
+apply plugin: 'java'
+dependencies {
+    compile project(':katana-server')
+    compile 'org.glassfish.jersey.containers:jersey-container-jetty-http:2.13'
+    compile 'org.glassfish.jersey.containers:jersey-container-jetty-servlet:2.13'
+}

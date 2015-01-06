@@ -1,0 +1,10 @@
+<table ng-controller="no.xample.domain.TodoList">
+    <tr ng-repeat="element in obj.objects" ng-click="selectElement(obj,element)">
+        <!--<span>span i tr </span>-->
+        <!--<div>div i tr</div>-->
+        <kt-view ref="element" view="Normal"></kt-view>
+    </tr>
+
+
+</table>
+<button class="glyphicon glyphicon-plus" data-ng-click="addElement(obj)"></button>
